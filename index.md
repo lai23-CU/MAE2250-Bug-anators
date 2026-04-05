@@ -4,7 +4,18 @@
 **Team:** Bug-anators
 **Client(s):** Cornell CALS Extension / E\&J Gallo Winery / National Grape  
 
-## Problem statement (most important)
+---
+
+## Table of Contents
+- [Client Pitch](#client-pitch)
+- [Functional Prototype](#functional-prototype)
+
+---
+
+## Client Pitch
+<a id="client-pitch"></a>
+
+## Problem statement 
 
 Grape farms supplying wineries and juice processors are increasingly impacted by Spotted Lanternflies (SLFs) during the growing and harvesting season. A Penn State-Cornell study found that more than 60% SLFs were harvested directly into 1.5-ton grape bins (up to 80% in some rows). Under current quality standards, a juice load may be rejected if just 1-2 insect fragments are detected in a 1,000-gram core sample. The grape vines also lose vitality after the SLF attaches to the vines. While current strategies focus on applying pesticides, they are too expensive as a constant preventive measure. Our plan focuses specifically on stopping adult SLFs from reaching and settling on vines by intercepting them at key hotspots and entry points in the vineyard. 
   
@@ -53,12 +64,141 @@ Focus on questions they can answer from lived experience.
 5. **Can traps be placed directly at Tree of Heaven or vine hotspots to eliminate the need for artificial scent dispersal?**  
    *Decision affected:* Whether to simplify system design and remove the active scent mechanism.
 
-\newpage
 
-# Optional page 2 — References and/or one figure
 
 ## References
 
 - Penn State–Cornell mechanical harvester SLF study (client background source)
 - Inspiration for scented insect trap design:  
   https://www.walmart.com/ip/Dynatrap-1-Acre-Outdoor-Insect-Trap/15703653119
+
+
+
+
+  ---
+
+## Functional Prototype
+<a id="functional-prototype"></a>
+
+## Overview
+
+The goal of this prototype is to develop a retractable protective enclosure that prevents spotted lanternflies (SLFs) from reaching grapevines while still allowing easy access for harvesting.
+
+This iteration focuses on testing the **mechanical system**, specifically:
+- Scissor linkage expansion mechanism  
+- Wheel–rail motion system  
+- Structural stability of the frame  
+
+---
+
+## Design Documentation
+
+### Key Mechanisms
+
+**Scissor Linkage System**  
+Enables horizontal expansion and contraction of the structure.
+
+**Wheel–Rail System**  
+Allows the structure to move smoothly along a track.
+
+**Rigid Frame**  
+Provides structural support and maintains alignment.
+
+**Mesh Enclosure (Planned)**  
+Intended to block SLFs, but not included in this prototype due to part delays.
+
+---
+
+### How It Works
+
+- **Input:** Manual actuation  
+- **Motion:** Scissor linkage expands/contracts  
+- **Output:** Enclosure opens or closes around vines  
+
+---
+
+## Design Tests
+
+### 1. Scissor Linkage Structural Test
+
+**What we tested:**  
+Structural integrity under load  
+
+**How we tested:**  
+Added weights in 88g increments to both sides  
+
+**Results:**  
+- 88g → ~6° tilt  
+- 176g → ~10° tilt  
+- 264g → ~10° + creaking  
+- 352g → stabilized  
+
+**Takeaway:**  
+System works, but material is too weak → switch to aluminum  
+
+---
+
+### 2. Wheel–Rail Motion Test
+
+**What we tested:**  
+Smooth motion and jamming  
+
+**How we tested:**  
+Repeated full cycles along the rail  
+
+**Results:**  
+- Early cycles: no jamming  
+- Later cycles: up to 3 jams  
+
+**Takeaway:**  
+Mostly reliable; jamming likely due to manual inconsistency → add guides or motor  
+
+---
+
+### 3. Fastener Reliability Test
+
+**What we tested:**  
+Whether bolts loosen over time  
+
+**How we tested:**  
+Ran multiple cycles and checked fasteners  
+
+**Results:**  
+- Early: 0 loosened  
+- Later: up to 4 loosened  
+
+**Takeaway:**  
+Need locking mechanisms (lock nuts, threadlocker)  
+
+---
+
+## Success Criteria
+
+**Structural Stability**  
+- ≤ 5 in deflection  
+- No failure after 20 cycles  
+
+**Smooth Motion**  
+- No derailment  
+- No pauses > 5 seconds  
+
+**Fastener Reliability**  
+- ≤ 10% loosening after 20 cycles  
+
+---
+
+## Exhibit Demonstration
+
+We will demonstrate the system by performing repeated expansion and contraction cycles along the rail.
+
+The audience will observe:
+- Smooth motion of the scissor linkage  
+- Coordinated movement of the system  
+- Transition between open and enclosed states  
+
+We will also record the time per full cycle to provide a quantitative performance measure.
+
+---
+
+## Full Report
+(https://drive.google.com/file/d/1Aa2GAreDVGRJZIGoRSM6plzzSvkc97bm/view?usp=sharing)
