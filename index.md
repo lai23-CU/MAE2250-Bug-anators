@@ -70,8 +70,8 @@ Focus on questions they can answer from lived experience.
 
 - Penn State–Cornell mechanical harvester SLF study (client background source)
 - Inspiration for scented insect trap design:  
-  https://www.walmart.com/ip/Dynatrap-1-Acre-Outdoor-Insect-Trap/15703653119
-
+- Inspiration for scented insect trap design:  
+  [Dynatrap Outdoor Insect Trap](https://www.walmart.com/ip/Dynatrap-1-Acre-Outdoor-Insect-Trap/15703653119)
 
 
 
@@ -80,7 +80,7 @@ Focus on questions they can answer from lived experience.
 ## Functional Prototype
 <a id="functional-prototype"></a>
 
-## Overview
+### Overview
 
 The goal of this prototype is to develop a retractable protective enclosure that prevents spotted lanternflies (SLFs) from reaching grapevines while still allowing easy access for harvesting.
 
@@ -90,6 +90,8 @@ This prototype focuses on validating the **core mechanical behavior of the syste
 - Operate reliably over repeated use  
 
 The intent of this iteration is not final performance, but to identify **mechanical weaknesses and failure points** before building the final prototype.
+
+This prototype specifically targets the primary mechanical risks identified in our design, including deformation under load, misalignment during motion, and loosening under repeated cycling.
 
 ---
 
