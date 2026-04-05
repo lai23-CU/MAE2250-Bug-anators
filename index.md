@@ -84,10 +84,12 @@ Focus on questions they can answer from lived experience.
 
 The goal of this prototype is to develop a retractable protective enclosure that prevents spotted lanternflies (SLFs) from reaching grapevines while still allowing easy access for harvesting.
 
-This iteration focuses on testing the **mechanical system**, specifically:
-- Scissor linkage expansion mechanism  
-- Wheel–rail motion system  
-- Structural stability of the frame  
+This prototype focuses on validating the **core mechanical behavior of the system**, specifically whether the structure can:
+- Expand and contract smoothly  
+- Maintain structural integrity under load  
+- Operate reliably over repeated use  
+
+The intent of this iteration is not final performance, but to identify **mechanical weaknesses and failure points** before building the final prototype.
 
 ---
 
@@ -96,24 +98,24 @@ This iteration focuses on testing the **mechanical system**, specifically:
 ### Key Mechanisms
 
 **Scissor Linkage System**  
-Enables horizontal expansion and contraction of the structure.
+The scissor linkage enables horizontal expansion and contraction of the enclosure. It is the primary mechanism responsible for controlling the system’s motion and maintaining the geometry of the structure during operation.
 
 **Wheel–Rail System**  
-Allows the structure to move smoothly along a track.
+The wheel–rail system guides the movement of the structure along a fixed path. It ensures that expansion and contraction occur in a controlled and aligned manner, preventing unwanted lateral motion.
 
 **Rigid Frame**  
-Provides structural support and maintains alignment.
+The aluminum frame provides structural support for the entire system. It maintains alignment between components and resists deformation during operation.
 
 **Mesh Enclosure (Planned)**  
-Intended to block SLFs, but not included in this prototype due to part delays.
+The mesh is intended to act as a physical barrier to prevent SLFs from reaching the vines while still allowing airflow and light. This component was not included in the current prototype due to part delays, but its integration is critical for the final design.
 
 ---
 
 ### How It Works
 
-- **Input:** Manual actuation  
-- **Motion:** Scissor linkage expands/contracts  
-- **Output:** Enclosure opens or closes around vines  
+- **Input:** The user manually actuates the system by pushing or pulling the frame  
+- **Motion:** The scissor linkage expands or contracts, while the wheel system guides motion along the rail  
+- **Output:** The structure transitions between an open state (for access) and a closed state (for protection)  
 
 ---
 
@@ -122,83 +124,93 @@ Intended to block SLFs, but not included in this prototype due to part delays.
 ### 1. Scissor Linkage Structural Test
 
 **What we tested:**  
-Structural integrity under load  
+The ability of the scissor linkage to maintain structural integrity under load without excessive deformation.
 
 **How we tested:**  
-Added weights in 88g increments to both sides  
+Weights were incrementally added in 88 g increments to both sides of the linkage to simulate loading conditions. The resulting tilt of the structure was measured.
 
 **Results:**  
-- 88g → ~6° tilt  
-- 176g → ~10° tilt  
-- 264g → ~10° + creaking  
-- 352g → stabilized  
+- 88 g → ~6° tilt  
+- 176 g → ~10° tilt  
+- 264 g → ~10° tilt with audible creaking  
+- 352 g → ~10° tilt, stabilized due to screw coupling  
 
 **Takeaway:**  
-System works, but material is too weak → switch to aluminum  
+The linkage remained functional under load, but deformation occurred at relatively low weights. The plateau in tilt suggests the system stabilizes due to joint constraints rather than material stiffness. The creaking indicates that the current wooden material is approaching its structural limits.
+
+**Next iteration:**  
+Replace wooden members with aluminum to increase stiffness and reduce deformation. Improve joint design to better resist out-of-plane motion.
 
 ---
 
 ### 2. Wheel–Rail Motion Test
 
 **What we tested:**  
-Smooth motion and jamming  
+The ability of the system to move smoothly along the rail without jamming or misalignment.
 
 **How we tested:**  
-Repeated full cycles along the rail  
+The system was repeatedly moved back and forth along the full rail length. Instances of jamming and interruptions in motion were recorded.
 
 **Results:**  
-- Early cycles: no jamming  
-- Later cycles: up to 3 jams  
+- Early cycles: smooth motion with no jamming  
+- Later cycles: up to 3 jams per cycle  
 
 **Takeaway:**  
-Mostly reliable; jamming likely due to manual inconsistency → add guides or motor  
+The system generally performs well, but becomes more sensitive to alignment over time. Much of the jamming appears to be caused by inconsistent manual input rather than fundamental design failure.
+
+**Next iteration:**  
+Introduce alignment guides or constraints to reduce sensitivity to user input. Implement motorized actuation for more consistent motion.
 
 ---
 
 ### 3. Fastener Reliability Test
 
 **What we tested:**  
-Whether bolts loosen over time  
+Whether fasteners remain secure under repeated expansion and contraction cycles.
 
 **How we tested:**  
-Ran multiple cycles and checked fasteners  
+The system was operated for multiple cycles, after which all fasteners were inspected for loosening.
 
 **Results:**  
-- Early: 0 loosened  
-- Later: up to 4 loosened  
+- Early cycles: 0 loosened fasteners  
+- Later cycles: up to 4 loosened fasteners  
 
 **Takeaway:**  
-Need locking mechanisms (lock nuts, threadlocker)  
+Fasteners progressively loosen due to vibration and repeated motion, reducing system reliability over time.
+
+**Next iteration:**  
+Incorporate locking mechanisms such as lock nuts, washers, or thread-locking adhesive. Improve joint design to reduce vibration at connection points.
 
 ---
 
 ## Success Criteria
 
 **Structural Stability**  
-- ≤ 5 in deflection  
-- No failure after 20 cycles  
+- The structure must remain upright with ≤ 5 in deflection  
+- No structural failure after 20 cycles  
 
 **Smooth Motion**  
-- No derailment  
-- No pauses > 5 seconds  
+- The system must travel the full rail length without derailment  
+- No interruptions in motion longer than 5 seconds  
 
 **Fastener Reliability**  
-- ≤ 10% loosening after 20 cycles  
+- ≤ 10% of fasteners require retightening after 20 cycles  
+- No complete fastener failure  
 
 ---
 
 ## Exhibit Demonstration
 
-We will demonstrate the system by performing repeated expansion and contraction cycles along the rail.
+The prototype will be demonstrated through repeated expansion and contraction cycles along the rail.
 
 The audience will observe:
-- Smooth motion of the scissor linkage  
-- Coordinated movement of the system  
-- Transition between open and enclosed states  
+- Smooth and continuous motion of the scissor linkage  
+- Coordinated interaction between the linkage and wheel–rail system  
+- Transition between fully open and fully enclosed configurations  
 
-We will also record the time per full cycle to provide a quantitative performance measure.
+To provide a quantitative measure of performance, the time required to complete one full cycle will be recorded and compared across multiple trials.
 
 ---
 
 ## Full Report
-(https://drive.google.com/file/d/1Aa2GAreDVGRJZIGoRSM6plzzSvkc97bm/view?usp=sharing)
+[View Full Functional Prototype Report](https://drive.google.com/file/d/1Aa2GAreDVGRJZIGoRSM6plzzSvkc97bm/view?usp=sharing)
