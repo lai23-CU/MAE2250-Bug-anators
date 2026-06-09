@@ -9,6 +9,7 @@
 ## Table of Contents
 - [Client Pitch](#client-pitch)
 - [Functional Prototype](#functional-prototype)
+- [Final Exhibit & Client Report](#final-exhibit--client-report)
 
 ---
 
@@ -214,5 +215,60 @@ To provide a quantitative measure of performance, the time required to complete 
 
 ---
 
-## Full Report
+## ## Functional Prototype Report
 [View Full Functional Prototype Report](https://drive.google.com/file/d/1Aa2GAreDVGRJZIGoRSM6plzzSvkc97bm/view?usp=sharing)
+
+
+---
+
+## Final Exhibit & Client Report
+<a id="final-exhibit--client-report"></a>
+
+### Final Design
+
+Over the course of the semester, our team refined our original spotted lanternfly mitigation concept into a retractable vineyard enclosure designed to prevent SLFs from reaching grapevines while remaining compatible with mechanical harvesting operations.
+
+The final prototype featured:
+
+- Expandable scissor-linkage mechanism
+- Wheel–rail guidance system
+- Retractable protective enclosure
+- Structural support frame
+- Mesh barrier for insect exclusion
+
+### Engineering Validation
+
+To evaluate the feasibility of the design, we conducted three primary tests:
+
+#### Structural Stability
+Weights were applied to the scissor linkage to evaluate deformation under load. The structure remained functional but experienced measurable tilt, indicating a need for increased rigidity in future iterations.
+
+#### Wheel–Rail Motion Reliability
+Repeated expansion and contraction cycles were performed to assess motion consistency. While the system initially operated smoothly, later cycles revealed occasional jamming caused by alignment issues.
+
+#### Fastener Reliability
+Fasteners were inspected after repeated operating cycles. Loosening occurred over time due to vibration and repeated motion, highlighting the need for locking mechanisms in future designs.
+
+### Key Findings
+
+The prototype successfully demonstrated the feasibility of a preventative, non-pesticide approach to reducing spotted lanternfly contamination in vineyards.
+
+Future improvements include:
+
+- Aluminum 6061 structural members
+- Improved wheel–rail alignment tolerances
+- Locking fasteners and vibration-resistant joints
+- Motorized actuation
+- Full-scale vineyard field testing
+
+### Final Deliverables
+
+- Client Pitch
+- Functional Prototype
+- Engineering Testing & Validation
+- Bill of Materials
+- Final Exhibit & Client Report
+
+**Final Exhibit & Client Report**
+
+[View Full Report]([./Exhibit_and_Client_Report.pdf](https://drive.google.com/file/d/1Aa2GAreDVGRJZIGoRSM6plzzSvkc97bm/view?usp=sharing))
