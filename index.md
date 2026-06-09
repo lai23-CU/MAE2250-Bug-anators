@@ -271,4 +271,4 @@ Future improvements include:
 
 **Final Exhibit & Client Report**
 
-[View Full Report]([./Exhibit_and_Client_Report.pdf](https://drive.google.com/file/d/1Aa2GAreDVGRJZIGoRSM6plzzSvkc97bm/view?usp=sharing))
+[View Full Report](https://drive.google.com/file/d/1Aa2GAreDVGRJZIGoRSM6plzzSvkc97bm/view?usp=sharing)
